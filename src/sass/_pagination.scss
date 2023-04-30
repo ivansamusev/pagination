@@ -1,0 +1,57 @@
+.is-hidden {
+  opacity: 1;
+  pointer-events: none;
+  visibility: hidden;
+}
+.q {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+.gallery {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery img {
+  margin: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+.button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.button.is-hidden {
+  display: none;
+}
+
+.info__photo {
+
+
+}
